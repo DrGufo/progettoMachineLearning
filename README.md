@@ -1,9 +1,9 @@
 # Progetto Machine Learning - Classificazione da Dataset Sklearn
 
 ## Descrizione
-Questo progetto presenta una pipeline completa di machine learning supervisionato per la classificazione della qualita delle mele (`good` / `bad`) a partire da caratteristiche fisico-chimiche.
+Questo progetto presenta una pipeline completa di machine learning supervisionato per la classificazione della qualità delle mele (`good` / `bad`) a partire da caratteristiche fisico-chimiche.
 
-L'analisi e l'addestramento sono sviluppati nel notebook `EsercizioDatasetSklearn.ipynb`, con confronto tra piu algoritmi di classificazione, ottimizzazione degli iperparametri, valutazione tramite metriche standard e salvataggio del modello finale.
+L'analisi e l'addestramento sono sviluppati nel notebook `EsercizioDatasetSklearn.ipynb`, con confronto tra più algoritmi di classificazione, ottimizzazione degli iperparametri, valutazione tramite metriche standard e salvataggio del modello finale.
 
 ## Obiettivi
 - Analizzare e preparare il dataset `apple_quality.csv`.
@@ -66,7 +66,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn colorama jupyter
 ```
 
 ## Esecuzione Del Progetto
-### Modalita interattiva (consigliata)
+### Modalità interattiva (consigliata)
 1. Avviare Jupyter:
 ```bash
 jupyter notebook
@@ -74,7 +74,7 @@ jupyter notebook
 2. Aprire `EsercizioDatasetSklearn.ipynb`.
 3. Eseguire tutte le celle in ordine (`Run All`) per riprodurre l'intera pipeline.
 
-### Modalita batch (esecuzione automatica)
+### Modalità batch (esecuzione automatica)
 Per eseguire il notebook in modo non interattivo:
 ```bash
 jupyter nbconvert --to notebook --execute EsercizioDatasetSklearn.ipynb --output EsercizioDatasetSklearn.executed.ipynb
@@ -111,8 +111,8 @@ Nel notebook il modello finale viene serializzato con Pickle nel file:
 
 Il notebook mostra anche il caricamento del modello salvato e una verifica immediata delle prestazioni su `X_test`.
 
-## Riproducibilita E Dipendenze
-Per garantire la riproducibilita nel tempo, si consiglia di salvare le versioni dei pacchetti utilizzati:
+## Riproducibilità E Dipendenze
+Per garantire la riproducibilità nel tempo, si consiglia di salvare le versioni dei pacchetti utilizzati:
 ```bash
 pip freeze > requirements.txt
 ```
